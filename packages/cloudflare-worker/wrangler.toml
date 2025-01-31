@@ -113,3 +113,8 @@ enabled = true
 # [[vectorize]]
 # binding = "MY_INDEX"
 # index_name = "my-index"
+
+name = "SECRET_KEY"
+
+[vars]
+SECRET_KEY = "ae3d986847aa1428c01502af6c0eac01"
