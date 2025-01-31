@@ -11,7 +11,7 @@ export class Settings {
   public static readonly ADDON_NAME = process.env.ADDON_NAME ?? 'AIOStreams';
   public static readonly ADDON_ID =
     process.env.ADDON_ID ?? 'aiostreams.viren070.com';
-  public static readonly PORT = process.env.PORT ?? 3000;
+  public static readonly PORT = process.env.PORT ?? 7860;
   public static readonly BRANDING =
     process.env.BRANDING ?? process.env.NEXT_PUBLIC_ELFHOSTED_BRANDING;
   public static readonly SECRET_KEY = process.env.SECRET_KEY ?? '992eae2c1026eb1f255db43d34d25c3d';
