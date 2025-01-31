@@ -38,5 +38,5 @@
 | `DEFAULT_EASYNEWS_PLUS_TIMEMOUT`   | `15000`                                              | Default timeout for Easynews Plus requests (in milliseconds).                            |
 | `SHOW_DIE`                         | `true`                                               | Whether to display the die emoji in AIOStreams results                                                          |
 | `LOG_SENSITIVE_INFO`               | `false`                                              | Whether to log sensitive information.                                                      |
-| `DISABLE_TORRENTIO`                | `false`                                              | Whether to disable adding Torrentio as an addon, through override URLs, custom addons, or through the public ElfHosted instance of StremThru | 
+| `DISABLE_TORRENTIO`                | `true`                                              | Whether to disable adding Torrentio as an addon, through override URLs, custom addons, or through the public ElfHosted instance of StremThru | 
 | `DISABLE_TORRENTIO_MESSAGE`        | `''The Torrentio addon has been disabled, please remove it to use this addon.'`| The message shown when `DISABLE_TORRENTIO` is `true` and Torrentio is present in the configuration |
