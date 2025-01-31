@@ -62,8 +62,4 @@ COPY --from=builder /build/packages/utils/dist ./packages/utils/dist
 
 COPY --from=builder /build/node_modules ./node_modules
 
-EXPOSE 3000
-
-ENV SECRET_KEY=992eae2c1026eb1f255db43d34d25c3d
-
 ENTRYPOINT ["npm", "run", "start:addon"]
