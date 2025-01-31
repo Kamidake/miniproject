@@ -14,7 +14,7 @@ export class Settings {
   public static readonly PORT = process.env.PORT ?? 3000;
   public static readonly BRANDING =
     process.env.BRANDING ?? process.env.NEXT_PUBLIC_ELFHOSTED_BRANDING;
-  public static readonly SECRET_KEY = process.env.SECRET_KEY ?? ae3d986847aa1428c01502af6c0eac01;
+  public static readonly SECRET_KEY = process.env.SECRET_KEY ?? '992eae2c1026eb1f255db43d34d25c3d';
   public static readonly CUSTOM_CONFIGS = process.env.CUSTOM_CONFIGS || '';
   public static readonly DISABLE_CUSTOM_CONFIG_GENERATOR_ROUTE =
     process.env.DISABLE_CUSTOM_CONFIG_GENERATOR_ROUTE === 'true';
